@@ -1,0 +1,22 @@
+{
+  "name": "apitesting_newman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_apitesting": "newman run './api_testing/Bootcamp Collection.postman_collection.json' -e './api_testing/Bootcamp Environment.postman_environment.json'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvaYessica/bootcampBackEnd.git"
+  },
+  "author": "evapadilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvaYessica/bootcampBackEnd/issues"
+  },
+  "homepage": "https://github.com/EvaYessica/bootcampBackEnd#readme",
+  "devDependencies": {
+    "newman": "5.3.0"
+  }
+}

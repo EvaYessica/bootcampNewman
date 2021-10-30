@@ -1,6 +1,6 @@
 name: Integration
 
-on: [pull]
+on: [push]
 
 jobs:
   API_Testing:

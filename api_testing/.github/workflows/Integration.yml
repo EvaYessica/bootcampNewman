@@ -10,4 +10,5 @@ jobs:
     -uses: actions/setup-node@v1
       with:
         node-version: '14.x'
-        -run: npm run test_apitesting
+        run: echo Hello, world!
+        
